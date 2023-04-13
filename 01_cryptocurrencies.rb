@@ -7,7 +7,7 @@ separator = ": "
 $hash_prices_by_currencies = array_currencies.zip(array_prices).map { |a, b| "#{a}#{separator}#{b}" }
 
 def data_base
-  puts $hash_prices_by_currencies
+  puts $hash_prices_by_currencies.join("; ")
 end
 
 def high

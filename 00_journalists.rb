@@ -73,8 +73,6 @@ printf "
   when 9
     quit()
   end
-
-
 end
 
 def length
